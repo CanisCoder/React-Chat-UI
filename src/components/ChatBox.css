@@ -1,0 +1,96 @@
+.chat-box-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1050px;
+  height: 730px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: auto;
+  margin-bottom: 20px;
+  background-color: rgb(101, 125, 116)
+}
+
+.chat-box {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  border-radius: 10px;
+  padding: 20px;
+ 
+}
+
+.chat-header {
+  margin: 0;
+  padding: 10px;
+  
+  color: #0c0c0c;
+}
+
+.message-container {
+  flex: 1;
+  
+  padding: 10px;
+}
+
+.sent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.received {
+  display: flex;
+  flex-direction: row;
+}
+
+.sent p, .received p {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #42c46d;
+  color: #fff;
+  max-width: 70%;
+  margin: 5px;
+}
+
+.received p {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+input[type="text"] {
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.send-button, .upload-button {
+  background-color: #4286f4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.upload-button {
+  margin-right: 10px;
+}
